@@ -19,7 +19,7 @@
 		<IncludeSymbols>True</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<PackageId>NRTFTree-ASync</PackageId>
+		<PackageId>NRTFTree-Async</PackageId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
