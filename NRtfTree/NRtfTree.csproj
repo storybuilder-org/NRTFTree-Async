@@ -9,16 +9,17 @@
 		<RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
 		<Platforms>AnyCPU;x64;x86;arm64</Platforms>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Title>NRTF Tree Async</Title>
+		<Title>NRTFTree Async</Title>
 		<Description>This is a Async version of NRTF Tree.</Description>
 		<Company> Salvador Gomez, StoryBuilder Foundation</Company>
 		<Copyright>GNU GPLv3</Copyright>
-		<PackageProjectUrl>https://github.com/storybuilder-org/NRTF-Tree-Async</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/storybuilder-org/NRTFTree-Async</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/storybuilder-org/NRTF-Tree-Async</RepositoryUrl>
+		<RepositoryUrl>https://github.com/storybuilder-org/NRTFTree-Async</RepositoryUrl>
 		<IncludeSymbols>True</IncludeSymbols>
-		<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageId>NRTFTree-ASync</PackageId>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -26,7 +27,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\.editorconfig" Link=".editorconfig" />
 		<None Include="..\LICENSE">
 		  <Pack>True</Pack>
 		  <PackagePath>\</PackagePath>
