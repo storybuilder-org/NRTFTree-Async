@@ -11,6 +11,14 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>NRTF Tree Async</Title>
 		<Description>This is a Async version of NRTF Tree.</Description>
+		<Company> Salvador Gomez, StoryBuilder Foundation</Company>
+		<Copyright>GNU GPLv3</Copyright>
+		<PackageProjectUrl>https://github.com/storybuilder-org/NRTF-Tree-Async</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/storybuilder-org/NRTF-Tree-Async</RepositoryUrl>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -19,6 +27,14 @@
 
 	<ItemGroup>
 		<None Include="..\.editorconfig" Link=".editorconfig" />
+		<None Include="..\LICENSE">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>
